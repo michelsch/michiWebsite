@@ -8,6 +8,11 @@
   background-size: cover;
 }
 
+.headshot {
+  background: url("../img/headshot.jpg") no-repeat center center;
+  width: 100%;
+}
+
 .one {
   background-image: url("../img/michel.jpg");
 }

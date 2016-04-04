@@ -191,12 +191,8 @@ textarea {
 }
 
 .row.step {
-  margin:0px;
+  padding:10px;
 }
-
-/*.stepContainer {
-  margin-top: 5%;
-}*/
 
 .stepTitle {
   color:black;

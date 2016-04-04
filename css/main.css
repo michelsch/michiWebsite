@@ -130,11 +130,45 @@ textarea {
   margin-top: 10px;
 }
 
-.greenbutton {
-  background-color: green;
-  /*width: 100px;*/
-  /*height: 20px;*/
+.michiText {
+  color:white;
+  text-decoration:none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.menuText {
+  color:white;
+  text-decoration:none;
+  font-family: 'Lato', sans-serif;
+}
+
+.jumbotronTitle {
+  font-family: 'Lato', sans-serif;
+  font-size:38px;
+}
+
+.jumbotronText {
+  font-family: 'Playfair Display', serif;
+  font-size:36px;
+}
+
+.signupButton {
+  background-color: #20948B;
+  color:white;
+  width: 100px;
+  height: 20px;
   padding: 10px;
+  font-family: 'Lato', sans-serif;
+  text-decoration:none;
+  font-size:24px;
+}
+
+.stepTitle {
+  color:black;
+}
+
+.stepText {
+  color:#9B9B9B;
 }
 
 /* ==========================================================================

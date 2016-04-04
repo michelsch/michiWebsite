@@ -101,6 +101,13 @@ textarea {
   clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
 }
 
+.navbarbottom {
+  background-color:#20948B;
+  height:80px;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 0%,60% 100%);
+  clip-path: polygon(0 0, 100% 0%, 100% 60%, 0 100%);
+}
+
 .jumbotron.custom {
   background: url("../img/jumbotron.jpg") no-repeat center center;
   height:600px;
@@ -114,17 +121,54 @@ textarea {
   font-size: 20px;
 }
 
+.othertextspacer {
+  padding-top: 100px;
+}
+
 .headshot {
   background: url("../img/headshot.jpg") no-repeat center center;
-  width: 200px;
-  height: 200px;
-  padding:0px;
-  margin:0px;
+  width: 100%; 
 }
+
+
+
+
+.user {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url("../img/michel.jpg");
+}
+
+.two {
+  background-image: url("../img/sam.jpg");
+}
+
+.three {
+  background-image: url("../img/steph.jpg");
+}
+
+
+
+
+
+
 
 .spacer {
   margin-top:100px;
 }
+
+.spaceremail {
+  margin-top:100px;
+}
+
 
 .infospacer {
   margin-top: 10px;
@@ -169,6 +213,10 @@ textarea {
 
 .stepText {
   color:#9B9B9B;
+}
+
+.spacerright {
+  width: 10px;
 }
 
 /* ==========================================================================

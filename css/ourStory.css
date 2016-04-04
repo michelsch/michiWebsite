@@ -1,0 +1,21 @@
+.user {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.one {
+  background-image: url("../img/michel.jpg");
+}
+
+.two {
+  background-image: url("../img/sam.jpg");
+}
+
+.three {
+  background-image: url("../img/steph.jpg");
+}

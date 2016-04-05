@@ -115,21 +115,9 @@ textarea {
   margin:0px;
   padding-bottom:20px;
 }
-.othertextspacer {
-  padding-top: 100px;
-}
 
 .spacer {
-  margin-top:120px;
-}
-
-.spaceremail {
-  margin-top:100px;
-}
-
-
-.infospacer {
-  margin-top: 10px;
+  padding-bottom:120px;
 }
 
 .michiText {
@@ -187,10 +175,6 @@ textarea {
   vertical-align: middle;
 }
 
-.video {
- vertical-align: middle;
-}
-
 .row {
   padding-right: 0px !important;
   margin-right: 0px !important;
@@ -198,6 +182,14 @@ textarea {
 
 .row.step {
   padding:10px;
+}
+
+.stepContainer {
+  padding-top:2%;
+}
+
+.stepContainer.left {
+  padding-left:20%;
 }
 
 .stepTitle {
@@ -213,16 +205,8 @@ textarea {
   font-size:25px;
 }
 
-.stepText.small {
-  font-size: 15px;
-}
-
-.spacerright {
-  width: 10px;
-}
-
 .icon {
-    margin:20px;
+    margin:30px;
 }
 
 .icon.left {
@@ -233,47 +217,19 @@ textarea {
   margin-right:40%;
 }
 
-.michiicon {
-  padding-left: 20px;
-  /*margin-right: auto;*/
-  /*margin-left: auto;*/
-  padding-top: 60px;
-  display: inline-block;
-  width: 80%;
-  height: 70%;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
+.bottomSpacer {
+  margin-top: 15%;
 }
 
-.user {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin-left:40%;
-  margin-top: 10px;
+.downArrow {
+  height:50px;
+  width:50px;
+  margin-left: 50%;
+  opacity:80%;
 }
 
-.one {
-  background-image: url("../img/michel.jpg");
-
-}
-
-.two {
-  background-image: url("../img/sam.jpg");
-}
-
-.three {
-  background-image: url("../img/steph.jpg");
-}
-
-.username {
-text-align: center;
+.topSpacer {
+  padding-bottom:100px;
 }
 
 /* ==========================================================================

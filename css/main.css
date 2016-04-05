@@ -110,9 +110,10 @@ textarea {
 
 .jumbotron.custom {
   background: url("../img/jumbotron.jpg") no-repeat center center;
-  min-height: 600px;
+  min-height: 100vh;
   padding:0px;
   margin:0px;
+  padding-bottom:20px;
 }
 .othertextspacer {
   padding-top: 100px;
@@ -178,7 +179,7 @@ textarea {
   font-family: 'Lato', sans-serif;
   text-decoration:none;
   font-size:24px;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 .customContainer {
@@ -188,6 +189,11 @@ textarea {
 
 .video {
  vertical-align: middle;
+}
+
+.row {
+  padding-right: 0px !important;
+  margin-right: 0px !important;
 }
 
 .row.step {

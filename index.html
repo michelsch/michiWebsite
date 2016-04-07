@@ -8,8 +8,24 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+        <link rel="manifest" href="img/favicon/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="img/favicon/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -17,6 +33,7 @@
         <link href='https://fonts.googleapis.com/css?family=Quicksand' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
         <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     </head>
     <body>
@@ -27,12 +44,15 @@
         <!-- Add your site or application content here -->
 
 
-        <nav class="navbar navbar-fixed-top">
+        <nav class="navbar navbar-fixed-top" role="navigation">
           <div class="container-fluid">
             <div class="navbar-header">
               <a class="navbar-brand navbar-logo michiText" href="#">michi</a>
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <i class="fa fa-bars"></i>
+              </button>
             </div>
-            <div class="collapse navbar-collapse">
+            <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a class="menuText" href="ourstory.html"></span>our story</a></li>
                 <li><a class="menuText" href="contactus.html"></span>contact us</a></li>
@@ -46,7 +66,9 @@
             <div class="col-sm-5">
                 <div class="customContainer textContainer">
                   <div class="jumbotronTitle">Speak Chinese like a native.</div>
-                  <div class="jumbotronText">At michi, we believe in real conversations with real native speakers.</div>
+                  <div class="jumbotronText">
+                    At michi, we believe in real conversations with real native speakers.
+                  </div>
                   <div><a class = "signupButton" href="calendar.html">start practicing</a></div>
                 </div>
             </div>
@@ -61,8 +83,8 @@
             <!--<div class="bottomSpacer"></div>
             <div class="downArrow"><img src="img/arrow.svg"></div>-->
           </div>
-          <div class="bottomSpacer">h</div>
-          <div class="downArrow"><img src="img/arrow.svg"></div>
+          <div class="bottomSpacer"></div>
+          <span><img class="downArrow" src="img/arrow.svg"></span>
         </div>
 
         <div class="row step top" style="background-color:#FCDB8F">
@@ -80,7 +102,7 @@
         <div class="row step" style="background-color:#F4CC70">
           <div class="col-sm-6 stepContainer left">
             <div class="stepTitle">prepare</div>
-            <div class="stepText">check your email for a flashcard <br>with relevant vocabulary</div>
+            <div class="stepText">check your email for a flashcard with relevant vocabulary and phrases</div>
             <div class="stepText">review and prepare</div>
           </div>
           <div class="col-sm-6">
@@ -94,21 +116,21 @@
           </div>
           <div class="col-sm-6 stepContainer right">
             <div class="stepTitle">let's talk!</div>
-            <div class="stepText">video chat with your tutor <br>from your preferred platform</div>
+            <div class="stepText">video chat with your matched tutor from your preferred platform</div>
         </div>
       </div>
 
       <div class="row step" style="background-color:#F4CC70">
         <div class="col-sm-6 stepContainer left">
           <div class="stepTitle">review feedback</div>
-          <div class="stepText">check your email for your <br>customized chat recap</div>
-          <div class="stepText">review the tutor feedback and all <br>the freshly learned words</div>
+          <div class="stepText">check your email for your customized chat recap</div>
+          <div class="stepText">review the tutor feedback and all the freshly learned words and phrases</div>
+          <div class="stepText">repeat as you please!</div>
         </div>
         <div class="col-sm-6">
           <img class="icon right" src = "img/icon4.svg">
         </div>
       </div>
-
 
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>

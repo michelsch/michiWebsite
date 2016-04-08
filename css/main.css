@@ -122,7 +122,7 @@ textarea {
 }
 
 .menuText {
-  color:white;
+  color:white !important;
   text-decoration:none;
   font-family: 'Lato', sans-serif;
   font-size:15px;
@@ -131,6 +131,10 @@ textarea {
 .navbar-collapse {
   background-color:#20948B;
   padding-bottom: 20px;
+}
+
+.navbar-default {
+  background-color:#20948B !important;
 }
 
 .textContainer {
@@ -191,6 +195,10 @@ textarea {
   padding-left:20%;
 }
 
+.stepContainer.mobile {
+  display:none;
+}
+
 .stepTitle {
   color:black;
   font-family: 'Lato', sans-serif;
@@ -229,6 +237,53 @@ textarea {
 
 .topSpacer {
   padding-bottom:100px;
+}
+
+/*iPad or smaller*/
+@media screen and (max-width: 768px) {
+  .jumbotronTitle {
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size:30px;
+    margin:10px;
+    vertical-align: middle;
+    margin-top:20px;
+    font-weight: bold;
+  }
+
+  .jumbotronText {
+    color:white;
+    font-family: 'Playfair Display', serif;
+    font-size:25px;
+    margin:10px;
+    margin-bottom: 50px;
+  }
+
+}
+
+/*iPhone or smaller*/
+@media screen and (max-width: 667px) {
+
+  .icon.left{
+    margin-left:25%;
+  }
+
+  .icon.right{
+    margin-left:25%;
+  }
+
+  .stepContainer.left {
+    display:none;
+  }
+
+  .stepContainer.right {
+    display:none;
+  }
+
+  .stepContainer.mobile {
+    display:block;
+  }
+
 }
 
 /* ==========================================================================

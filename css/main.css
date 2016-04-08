@@ -94,7 +94,7 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.navbar.top {
+.navbar {
   background-color:#20948B;
   height:80px;
   -webkit-clip-path: polygon(0% 0%, 100% 0%, 100% 60%, 0% 100%);
@@ -265,10 +265,12 @@ textarea {
 @media screen and (max-width: 667px) {
 
   .icon.left{
+    display:block;
     margin-left:25%;
   }
 
   .icon.right{
+    display:block;
     margin-left:25%;
   }
 

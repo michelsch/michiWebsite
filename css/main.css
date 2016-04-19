@@ -107,6 +107,7 @@ textarea {
   padding:0px;
   margin:0px;
   padding-bottom:20px;
+  overflow:hidden;
 }
 
 .spacer {
@@ -126,6 +127,10 @@ textarea {
   text-decoration:none;
   font-family: 'Lato', sans-serif;
   font-size:15px;
+}
+
+.menuText:hover {
+  background-color:#20948B !important;
 }
 
 .navbar-collapse {
@@ -164,7 +169,7 @@ textarea {
   height: 20px;
   padding: 10px;
   font-family: 'Lato', sans-serif;
-  text-decoration:none;
+  text-decoration:none !important;
   font-size:24px;
   margin-left: 15%;
 }

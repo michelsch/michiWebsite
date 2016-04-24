@@ -1,7 +1,8 @@
 angular
 .module('app', ['pubnub.angular.service'])
 
-.controller('ChatCtrl', ['$scope', 'Pubnub', function($scope, Pubnub) {
+.controller('ChatCtrl', ['$scope','$window', 'Pubnub', function($scope,$window, Pubnub) {
+
     $scope.messages = [];
     $scope.channel = 'messages-channel';
 

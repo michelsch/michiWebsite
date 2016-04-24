@@ -2,7 +2,7 @@ body{
   background-color: #FAFFFD;
 }
 
-.videoBox {
+#videoBox {
   width:75%;
   height:100vh;
 }
@@ -15,7 +15,9 @@ body{
 
 .collection {
  margin-top: -1px;
-}
+ display:inline-block;
+ margin-bottom:130px;
+ }
 
 .message-date {
   color: #585858;

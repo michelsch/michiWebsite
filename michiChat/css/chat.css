@@ -1,0 +1,49 @@
+body{
+  background-color: #FAFFFD;
+}
+
+.videoBox {
+  width:75%;
+  height:100vh;
+}
+
+.chatBox {
+  float:right;
+  height:100vh;
+  width:25%;
+}
+
+.collection {
+ margin-top: -1px;
+}
+
+.message-date {
+  color: #585858;
+}
+
+.submitButton {
+  display:none;
+}
+
+.pinyinButton:hover {
+  background-color:#F55449;
+}
+
+footer {
+ color: white;
+ position: fixed;
+ left:0px;
+ padding: 0;
+ bottom: 0px;
+ width: 100%;
+ height: 130px;
+}
+
+footer .input-field input,
+button {
+ border-color: #FFFFFF;
+}
+
+.chip {
+ font-style: italic;
+}

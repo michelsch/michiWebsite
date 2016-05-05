@@ -103,7 +103,7 @@ textarea {
 
 .jumbotron.custom {
   background: url("../img/jumbotron.jpg") no-repeat center center;
-  min-height: 100vh;
+  height: 100vh;
   padding:0px;
   margin:0px;
   padding-bottom:20px;
@@ -147,7 +147,7 @@ textarea {
 .jumbotronTitle {
   color:white;
   font-family: 'Playfair Display', serif;
-  font-size:35px;
+  font-size:32px;
   margin:10px;
   vertical-align: middle;
   margin-top:20px;
@@ -162,21 +162,26 @@ textarea {
   margin-bottom: 50px;
 }
 
+.signupButtonDiv {
+  text-align:center;
+  margin-top:20%;
+}
+
 .signupButton {
   background-color: #20948B;
   color:white;
-  width: 100px;
-  height: 20px;
-  padding: 10px;
+  padding: 15px;
   font-family: 'Lato', sans-serif;
   text-decoration:none !important;
   font-size:24px;
-  margin-left: 15%;
+  /*border-radius: 15px;*/
+  /*margin-right:10%;*/
 }
 
 .customContainer {
-  text-align: left;
+  /*text-align: left;*/
   vertical-align: middle;
+  align-items:center;
 }
 
 .row {
@@ -203,14 +208,14 @@ textarea {
 .stepTitle {
   color:black;
   font-family: 'Lato', sans-serif;
-  font-size:25px;
+  font-size:22px;
 }
 
 .stepText {
   color:#9B9B9B;
   font-family: 'Lato', sans-serif;
   padding: 5px;
-  font-size:25px;
+  font-size:20px;
 }
 
 .icon {
@@ -226,13 +231,13 @@ textarea {
 }
 
 .bottomSpacer {
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 .downArrow {
   height:50px;
   width:50px;
-  margin-left: 50%;
+  /*margin-left: 50%;*/
   opacity:80%;
 }
 

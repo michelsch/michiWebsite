@@ -150,8 +150,9 @@ textarea {
   font-size:32px;
   margin:10px;
   vertical-align: middle;
-  margin-top:20px;
+  margin-top:20%;
   font-weight: bold;
+  text-align: center;
 }
 
 .jumbotronText {
@@ -159,7 +160,7 @@ textarea {
   font-family: 'Playfair Display', serif;
   font-size:30px;
   margin:10px;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 .signupButtonDiv {
@@ -244,6 +245,7 @@ textarea {
   width:50px;
   /*margin-left: 50%;*/
   opacity:80%;
+  margin-bottom: 10%;
 }
 
 .topSpacer {

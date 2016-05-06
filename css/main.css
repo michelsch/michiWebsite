@@ -198,7 +198,11 @@ textarea {
 }
 
 .stepContainer.left {
-  padding-left:20%;
+  padding-left:10%;
+}
+
+.stepContainer.right {
+  padding-right:10%;
 }
 
 .stepContainer.mobile {
@@ -216,10 +220,11 @@ textarea {
   font-family: 'Lato', sans-serif;
   padding: 5px;
   font-size:20px;
+  margin-bottom:10px;
 }
 
 .icon {
-    margin:30px;
+    margin:40px;
 }
 
 .icon.left {
@@ -227,7 +232,7 @@ textarea {
 }
 
 .icon.right {
-  margin-right:40%;
+  margin-left:30%;
 }
 
 .bottomSpacer {
